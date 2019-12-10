@@ -31,7 +31,7 @@ interface UserRepositoryInterface
      *
      * @return \Cartalyst\Sentinel\Users\UserInterface|null
      */
-    public function findById(int $id): ?UserInterface;
+    public function findById(string $id): ?UserInterface;
 
     /**
      * Finds a user by the given credentials.

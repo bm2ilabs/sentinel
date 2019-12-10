@@ -67,7 +67,7 @@ class IlluminateUserRepository implements UserRepositoryInterface
     /**
      * {@inheritdoc}
      */
-    public function findById(int $id): ?UserInterface
+    public function findById(string $id): ?UserInterface
     {
         return $this->createModel()->newQuery()->find($id);
     }

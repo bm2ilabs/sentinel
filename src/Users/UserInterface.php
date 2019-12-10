@@ -27,7 +27,7 @@ interface UserInterface
      *
      * @return int
      */
-    public function getUserId(): int;
+    public function getUserId(): string;
 
     /**
      * Returns the user login.
