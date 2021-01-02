@@ -1,5 +1,21 @@
 # Changelog
 
+### v5.0.0 - 2020-09-12
+
+- BC Break: PHP 7.3 is the minimum required PHP version
+- BC Break: Laravel 8.0 is the minimum supported Laravel version
+
+### v4.0.0 - 2020-03-05
+
+- BC Break: PHP 7.2 is the minimum required PHP version
+- BC Break: Laravel 7.0 is the minimum supported Laravel version
+
+### v3.0.4 - 2020-02-07
+
+`ADDED`
+
+- The `inAnyRole` to be called statically, `Sentinel::inAnyRole($role)`
+
 ### v3.0.3 - 2019-09-26
 
 `FIXED`
